@@ -1,0 +1,13 @@
+from random import randint
+
+y = randint(0,100)
+
+x=0
+while x!=y:
+    x = int(input("Digite um núemero: "))
+    if x<y:
+        print("Digite um número maior")
+    elif x>y:
+        print("Digite um número menor")
+    else:
+        print("Parabens você acertou ☺")
